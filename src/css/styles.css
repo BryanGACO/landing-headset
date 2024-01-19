@@ -12,3 +12,21 @@
     --fuenteSecundaria: 'Lato', sans-serif;
 }
 
+/* SNIPPET PARA EVITAR QUE EL TAMAÑO DEL CONTENDOR CAMBIE CUANDO TU AGREGUES PADDING MARGINT ...*/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;/* CONVIERTE 1 REM EN 10px*/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: 1.6rem;
+    line-height: 1.5; /* INTERLINEADO */
+}
+
+img {
+    max-width: 100%;
+}
