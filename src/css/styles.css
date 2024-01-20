@@ -32,10 +32,6 @@ body {
     /* INTERLINEADO */
 }
 
-img {
-    max-width: 100%;
-}
-
 /** GLOBALES **/
 .contenedor {
     max-width: 1200px;
