@@ -138,16 +138,15 @@ img {
 
 /** Iconos **/
 
-.iconos {
-    display: flex;
-    flex-direction: column;
+.iconos {            
     padding: var(--separacion) 0;
     justify-content: space-between;
 }
 
 @media (min-width: 768px) {
     .iconos {
-        flex-direction: row;
+        display: flex;
+        gap:2rem;
     }
 }
 
@@ -155,17 +154,8 @@ img {
     text-align: center;
 }
 
-.icono:nth-child(2) {
-    margin: 0 var(--separacion);
-}
-
-@media (min-width: 768px) {
-    .icono:nth-child(2) {
-        margin: 0;
-    }   
-}
-
 .icono img {
+    width:5rem;
     margin: 0 auto;
 }
 
